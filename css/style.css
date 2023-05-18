@@ -1,0 +1,190 @@
+/* swipnav css */
+
+.swipnav-main {
+  position: relative;
+}
+
+/* swiper css */
+
+.slider-img {
+  width: 100%;
+}
+.swiper-scrollbar {
+  display: none;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 15px !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px !important;
+  color: white !important;
+  background: orangered !important;
+  padding: 10px !important;
+}
+
+.swiper-button-disabled {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(128, 128, 128, 0.7) !important;
+}
+
+.single-slide-main {
+  display: grid;
+}
+
+.inner-content-main {
+  position: absolute;
+  z-index: 2;
+  top: 32%;
+  color: white;
+  width: 80%;
+  justify-self: center;
+}
+.client-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.lorem-text {
+  font-size: 13px;
+  padding: 10px;
+  color: rgb(147, 146, 146);
+}
+.btns-main {
+  display: flex;
+  justify-content: center;
+}
+.get-started-btn {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+}
+.learn-more-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  border: 1px solid whitesmoke;
+}
+
+/* navbar css */
+
+.nav-link.active {
+  color: orangered !important;
+  border: none !important;
+  border-bottom: 1px solid orangered !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+.nav-pills {
+  background-color: transparent !important;
+}
+.nav-link {
+  margin: 5px;
+  color: white !important;
+}
+.nav-link:hover {
+  border-bottom: 1px solid orangered !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-radius: 0 !important;
+}
+
+.navbar-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+}
+.logo-image {
+  margin: 0 15px;
+}
+
+/* history css */
+
+.history-heading {
+  font-size: 17px;
+  font-weight: 600;
+  border-left: 5px solid orangered;
+}
+.browser-btn-main {
+  padding: 10px;
+}
+.browse-btn {
+  background: orangered;
+  color: white;
+  border: navajowhite;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 500px) {
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px !important;
+    font-size: 7px !important;
+  }
+  .nav-link {
+    padding: 5px 11px !important;
+    font-size: 7px !important;
+  }
+  .logo-image {
+    height: 20px;
+    width: 40px;
+  }
+  .slide-image {
+    height: 400px;
+  }
+  .client-heading {
+    font-size: 8px;
+  }
+  .welcome {
+    font-size: 15px !important;
+  }
+  .lorem-text {
+    font-size: 8px !important;
+  }
+  .slidder-lorem-text {
+    display: none;
+  }
+  .learn-more-btn,
+  .get-started-btn {
+    font-size: 12px !important;
+    padding: 5px 8px !important;
+  }
+  .inner-content-main {
+    top: 23% !important;
+    width: 72% !important;
+  }
+  .monitor-image {
+    width: 80%;
+  }
+  .monitor-main {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  /* .history-desc {
+    padding: 0 !important;
+  } */
+}
